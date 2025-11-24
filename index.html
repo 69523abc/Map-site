@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>我的 Google Maps 評論地圖</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h1>Google Maps 評論地圖</h1>
+
+    <div class="control-group">
+      <label for="file-input">1️⃣ 上傳 Google Takeout 的「評論.json」</label>
+      <input id="file-input" type="file" accept=".json" />
+      <small>※ Google Takeout → Maps（你的地點）→ 評論.json</small>
+    </div>
+
+    <hr style="border-color:#1f2933; opacity:0.6;">
+
+    <div class="control-group">
+      <label for="search-input">🔍 關鍵字搜尋</label>
+      <input id="search-input" type="text" placeholder="輸入店名或評論內容..." disabled />
+    </div>
+
+    <div class="control-group">
+      <label for="year-select">📅 年份</label>
+      <select id="year-select" disabled>
+        <option value="all">全部年份</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="rating-select">⭐ 最低評分</label>
+      <select id="rating-select" disabled>
+        <option value="0">不限</option>
+        <option value="3">3★ 以上</option>
+        <option value="4" selected>4★ 以上</option>
+        <option value="5">5★</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="category-select">📂 類別</label>
+      <select id="category-select" disabled>
+        <option value="all" selected>全部</option>
+      </select>
+    </div>
+
+    <div class="stats">
+      <span id="stats-count">請先上傳評論 JSON 檔</span>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
