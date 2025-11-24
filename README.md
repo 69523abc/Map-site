@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="banner.png" width="80%" />
+</p>
+
+<h3 align="center">A clean, interactive map for visualizing your Google Maps review history</h3>
+
+
+
 # 🌍 Google Maps Review Visualizer  
 用你的 Google Maps 評論 JSON 自動生成互動地圖  
 Interactive map that visualizes your Google Maps review history
