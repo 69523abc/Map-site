@@ -28,17 +28,9 @@ Google Takeout 產生的 **評論.json**，網站就會自動解析資料並顯�
 - ⭐ 最低評分過濾  
 - 📂 類別分類過濾  
 
-📌 **所有資料都只在使用者瀏覽器端處理，不上傳、不儲存。**  
-完全隱私友善、快速、安全。
-
-👉 適合作為 **Side Project / 個人作品集 Portfolio**  
-👉 不需要後端、不需要資料庫、不需要 API Key  
-
 ---
 
 ## 🚀 Live Demo｜線上展示
-
-（將你的 GitHub Pages 網址貼在這裡）
 
 👉 https://69523abc.github.io/Map-site/
 
@@ -74,7 +66,7 @@ Google Takeout 產生的 **評論.json**，網站就會自動解析資料並顯�
 資料不會離開你的瀏覽器。
 
 ### ✔ 可自由分享  
-只要對方有自己的 `評論.json`，任何人都能使用你的網站。
+只要有自己的 `評論.json`，任何人都能使用的網站。
 
 ---
 
@@ -150,6 +142,7 @@ Map-site/
 │── script.js
 │── README.md
 └── （可選）sample_reviews.json
+```
 ---
 🔒 Privacy｜隱私聲明
 
