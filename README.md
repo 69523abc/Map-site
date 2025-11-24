@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="banner.png" width="80%" />
+  <img src="banner_glossy_dark.png" width="85%">
 </p>
+
 
 <h3 align="center">A clean, interactive map for visualizing your Google Maps review history</h3>
 
